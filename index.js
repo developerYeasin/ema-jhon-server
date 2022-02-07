@@ -28,4 +28,4 @@ app.get("/", (req, res) =>{
     res.send("ema-john all okay")
 });
 
-app.listen(5000);
+app.listen(process.env.PORT || 5000);
